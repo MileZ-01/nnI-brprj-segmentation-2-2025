@@ -25,13 +25,13 @@ Datasets_preprocessed/*
 Datasets_Tr/**/imagesTr/*
 Datasets_Tr/**/labelsTr/*
 
+# But do NOT ignore .gitkeep files
+!Datasets_Tr/**/imagesTr/.gitkeep
+!Datasets_Tr/**/labelsTr/.gitkeep
+
 # Keep dataset.json files
 !Datasets_Tr/**/dataset.json
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Optional: keep empty folders in Git
-Datasets_Tr/Dataset001_CT_Scans/imagesTr/.gitkeep
-Datasets_Tr/Dataset001_CT_Scans/labelsTr/.gitkeep
