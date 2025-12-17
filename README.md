@@ -7,7 +7,7 @@ This repository contains the training and evaluation pipeline for **nnInteractiv
 ## Table of Contents
 
 - [Installation](#installation)
-- [Dataset Structure](#dataset-structure)
+- [Dataset Structure](#datasetsTr-structure)
 - [Environment Variables](#environment-variables)
 - [Training](#training)
 - [Evaluation](#evaluation)
@@ -33,7 +33,7 @@ conda env create -f environment.yml
 conda activate nninteractive
 ```
 
-## Datasets Structure
+## DatasetsTr Structure
 
 ```bash
 Dataset001_CT_Scans/
