@@ -1,0 +1,87 @@
+{
+  "labels": {
+    "background" : 0,
+    "material_1" : 1,
+    "material_2" : 2,
+    "material_3" : 3
+  },
+  "channel_names": {
+    "0": "CT_ch0",
+    "1": "CT_ch1",
+    "2": "CT_ch2",
+    "3": "CT_ch3",
+    "4": "CT_ch4",
+    "5": "CT_ch5",
+    "6": "CT_ch6",
+    "7": "CT_ch7"
+  },
+  "numTraining": 5,
+  "file_ending": ".nii.gz",
+  "training": [
+    {
+      "image": [
+        "imagesTr/CT_000_0000.nii.gz",
+        "imagesTr/CT_000_0001.nii.gz",
+        "imagesTr/CT_000_0002.nii.gz",
+        "imagesTr/CT_000_0003.nii.gz",
+        "imagesTr/CT_000_0004.nii.gz",
+        "imagesTr/CT_000_0005.nii.gz",
+        "imagesTr/CT_000_0006.nii.gz",
+        "imagesTr/CT_000_0007.nii.gz"
+      ],
+      "label": "labelsTr/CT_000.nii.gz"
+    },
+    {
+      "image": [
+        "imagesTr/CT_001_0000.nii.gz",
+        "imagesTr/CT_001_0001.nii.gz",
+        "imagesTr/CT_001_0002.nii.gz",
+        "imagesTr/CT_001_0003.nii.gz",
+        "imagesTr/CT_001_0004.nii.gz",
+        "imagesTr/CT_001_0005.nii.gz",
+        "imagesTr/CT_001_0006.nii.gz",
+        "imagesTr/CT_001_0007.nii.gz"
+      ],
+      "label": "labelsTr/CT_001.nii.gz"
+    },
+    {
+      "image": [
+        "imagesTr/CT_002_0000.nii.gz",
+        "imagesTr/CT_002_0001.nii.gz",
+        "imagesTr/CT_002_0002.nii.gz",
+        "imagesTr/CT_002_0003.nii.gz",
+        "imagesTr/CT_002_0004.nii.gz",
+        "imagesTr/CT_002_0005.nii.gz",
+        "imagesTr/CT_002_0006.nii.gz",
+        "imagesTr/CT_002_0007.nii.gz"
+      ],
+      "label": "labelsTr/CT_002.nii.gz"
+    },
+    {
+      "image": [
+        "imagesTr/CT_003_0000.nii.gz",
+        "imagesTr/CT_003_0001.nii.gz",
+        "imagesTr/CT_003_0002.nii.gz",
+        "imagesTr/CT_003_0003.nii.gz",
+        "imagesTr/CT_003_0004.nii.gz",
+        "imagesTr/CT_003_0005.nii.gz",
+        "imagesTr/CT_003_0006.nii.gz",
+        "imagesTr/CT_003_0007.nii.gz"
+      ],
+      "label": "labelsTr/CT_003.nii.gz"
+    },
+    {
+      "image": [
+        "imagesTr/CT_004_0000.nii.gz",
+        "imagesTr/CT_004_0001.nii.gz",
+        "imagesTr/CT_004_0002.nii.gz",
+        "imagesTr/CT_004_0003.nii.gz",
+        "imagesTr/CT_004_0004.nii.gz",
+        "imagesTr/CT_004_0005.nii.gz",
+        "imagesTr/CT_004_0006.nii.gz",
+        "imagesTr/CT_004_0007.nii.gz"
+      ],
+      "label": "labelsTr/CT_004.nii.gz"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.env/
+.envrc
+*.conda
+*.condarc
+
+# Logs
+logs/
+*.log
+
+# nnU-Net datasets and results (large files)
+Datasets_results/*
+Datasets_preprocessed/*
+
+# Keep Datasets_Tr folder structure, but ignore actual image/label files
+Datasets_Tr/**/imagesTr/*
+Datasets_Tr/**/labelsTr/*
+
+# Keep dataset.json files
+!Datasets_Tr/**/dataset.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional: keep empty folders in Git
+Datasets_Tr/Dataset001_CT_Scans/imagesTr/.gitkeep
+Datasets_Tr/Dataset001_CT_Scans/labelsTr/.gitkeep
